@@ -1,0 +1,40 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding:0px 7px;
+}
+/* home-section */
+ #home{
+height: 459px;
+padding: 0px 96px;
+} 
+#home::before{
+    height:589px;
+}
+#home .primary{
+    font-size: 25px;
+}
+#home p{
+    font-size: 13px;
+}
+.btn{
+    font-size: 13px;
+    padding:3px 9px;
+}
+/* services */
+
+#services{
+    flex-direction: column;
+}
+ /* client */
+ 
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    padding:0 56px;
+    width: 30px;
+}
